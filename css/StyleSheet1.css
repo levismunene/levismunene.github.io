@@ -1,0 +1,36 @@
+﻿body {
+    background-color:#9ae69d;
+    border: 5px outset #22e1e1;
+}
+table, th, td {
+    width: 200px;
+    background-color: #9eefe5;
+    border-radius: 30px;
+    border: solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+p {
+    border-radius: 30px;
+    border: 1px solid black;
+}
+div {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+}
+
+.img1 {
+    float: right;
+}
+
+.img2 {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
